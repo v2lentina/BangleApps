@@ -2,7 +2,7 @@
   "id": "vibtimer",
   "name": "VibTimer",
   "shortName": "VibTimer",
-  "icon": "app.png",
+  "icon": "wclock/img.png",
   "version": "0.01",
   "description": "Simple vibration timer controlled via Bluetooth",
   "type": "app",
