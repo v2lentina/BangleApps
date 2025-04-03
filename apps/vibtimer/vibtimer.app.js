@@ -10,6 +10,6 @@ Bluetooth.on('data', function(data) {
 });
 
 g.clear();
-g.setFont("6x8", 2);
+g.setFont("4x6", 2);
 g.drawString("VibTimer ready", 40, 60);
 g.flip();
