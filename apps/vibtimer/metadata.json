@@ -2,7 +2,7 @@
   "id": "vibtimer",
   "name": "VibTimer",
   "shortName": "VibTimer",
-  "icon": "blitz.png",
+  "icon": "vibtimer-icon.png",
   "version": "0.01",
   "description": "Simple vibration timer controlled via Bluetooth",
   "type": "app",
