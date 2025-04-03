@@ -11,6 +11,6 @@
   "storage": [
   { "name": "vibtimer.app.js", "url": "vibtimer.app.js" },
   { "name": "vibtimer.img", "url": "vibtimer-icon.js", "evaluate": true },
-  { "name": "vibtimer-icon.png", "url": "vibtimer-icon.png" } ← das hier ergänzen!
+  { "name": "vibtimer-icon.png", "url": "vibtimer-icon.png" }
 ]
 }
