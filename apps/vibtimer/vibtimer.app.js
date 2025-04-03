@@ -8,3 +8,8 @@ Bluetooth.on('data', function(data) {
     print("Vibriere für " + ms + " ms");
   }
 });
+
+g.clear();
+g.setFont("6x8", 2);
+g.drawString("VibTimer ready", 40, 60);
+g.flip();
