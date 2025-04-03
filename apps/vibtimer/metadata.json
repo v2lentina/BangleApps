@@ -5,6 +5,7 @@
   "icon": "app.png",
   "version": "0.01",
   "description": "Simple vibration timer controlled via Bluetooth",
+  "type": "app",
   "tags": "",
   "supports": ["BANGLEJS2"],
   "storage": [
