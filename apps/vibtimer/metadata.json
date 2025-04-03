@@ -1,0 +1,13 @@
+{
+  "id": "vibtimer",
+  "name": "VibTimer",
+  "shortName": "VibTimer",
+  "icon": "app.png",
+  "version": "0.01",
+  "description": "Simple vibration timer controlled via Bluetooth",
+  "tags": "",
+  "supports": ["BANGLEJS2"],
+  "storage": [
+    { "name": "vibtimer.app.js", "url": "app.js" }
+  ]
+}
