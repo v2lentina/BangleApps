@@ -28,6 +28,11 @@ NRF.setServices({
   }
 }, { advertise: [SERVICE_UUID] });
 
+setInterval(() => {
+  g.setFont("6x8");
+  g.drawString("Aktiv: " + new Date().toLocaleTimeString(), 10, 10);
+}, 10000);
+
 NRF.on('disconnect', () => {
   g.clear();
   g.drawString("BLE getrennt", 10, 30);
