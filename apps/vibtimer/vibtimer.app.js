@@ -31,7 +31,7 @@ NRF.setServices({
 setInterval(() => {
   g.setFont("6x8");
   g.drawString("Aktiv: " + new Date().toLocaleTimeString(), 10, 10);
-}, 10000);
+}, 1000);
 
 NRF.on('disconnect', () => {
   g.clear();
