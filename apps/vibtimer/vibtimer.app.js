@@ -31,7 +31,7 @@ NRF.setServices({
           NRF.updateServices({
             [SERVICE_UUID]: {
               [CHARACTERISTIC_UUID]: {
-                value: [66]
+                 value: E.toUTF8("OK")
               }
             }
           });
