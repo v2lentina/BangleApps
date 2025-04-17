@@ -28,10 +28,11 @@ NRF.setServices({
   }
 }, { advertise: [SERVICE_UUID] });
 
-setInterval(() => {
+let tick = setInterval(() => {
   g.setFont("6x8");
+  g.clearRect(10, 10, 200, 20); 
   g.drawString("Aktiv: " + new Date().toLocaleTimeString(), 10, 10);
-}, 1000);
+}, 10000);
 
 NRF.on('disconnect', () => {
   g.clear();
