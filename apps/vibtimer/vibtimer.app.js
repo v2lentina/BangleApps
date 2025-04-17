@@ -32,7 +32,7 @@ function startAdvertising() {
 
 g.clear();
 g.setFont("6x8", 2);
-g.drawString("VibTimer bereit", 10, 60);
+g.drawString("VibTimer bereit yay", 10, 60);
 Bangle.setLCDTimeout(0);
 Bangle.setPowerSave(false);
 
